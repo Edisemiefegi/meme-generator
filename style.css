@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    width: 350px;
+    /* text-align: center; */
+    height: 400px;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.meme-img{
+    width: 100%;
+    
+}
+#meme-btn{
+    border: none;
+    padding: 10px;
+    color: red;
+    width: 150px;
+    font-weight: bold;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+#meme-btn:active{
+    background-color: silver;
+
+    transition: .2s all ease-in;
+}
